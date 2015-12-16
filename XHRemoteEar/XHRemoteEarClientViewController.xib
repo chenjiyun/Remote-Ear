@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XHRemoteEarClientViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvL-y5-FxT">
+                    <rect key="frame" x="80" y="161" width="161" height="34"/>
+                    <color key="backgroundColor" red="0.31372550129999999" green="0.91372555489999996" blue="0.69803923369999998" alpha="1" colorSpace="deviceRGB"/>
+                    <state key="normal" title="Open AudioFilwStream"/>
+                    <connections>
+                        <action selector="openAudioFileStream:" destination="-1" eventType="touchUpInside" id="5xo-gd-dgg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6LR-yZ-8Vk">
+                    <rect key="frame" x="80" y="222" width="161" height="34"/>
+                    <color key="backgroundColor" red="0.91372555494308472" green="0.58039218187332153" blue="0.68627452850341797" alpha="1" colorSpace="deviceRGB"/>
+                    <state key="normal" title="Stop AudioQueue"/>
+                    <connections>
+                        <action selector="stopAudioQueue:" destination="-1" eventType="touchUpInside" id="hMe-RE-Pwj"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sXX-jg-DFE">
+                    <rect key="frame" x="36" y="381" width="121" height="30"/>
+                    <color key="backgroundColor" red="0.7450980544090271" green="0.93725496530532837" blue="0.82745105028152466" alpha="1" colorSpace="deviceRGB"/>
+                    <state key="normal" title="Connect"/>
+                    <connections>
+                        <action selector="connectToHost:" destination="-1" eventType="touchUpInside" id="0I5-tC-I80"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8A-kj-Rhh">
+                    <rect key="frame" x="160" y="381" width="125" height="30"/>
+                    <color key="backgroundColor" red="0.92941182851791382" green="0.7450980544090271" blue="0.68235296010971069" alpha="1" colorSpace="deviceRGB"/>
+                    <state key="normal" title="Disconnect"/>
+                    <connections>
+                        <action selector="disconnect:" destination="-1" eventType="touchUpInside" id="7xR-ws-Xuf"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="205" y="274"/>
+        </view>
+    </objects>
+</document>

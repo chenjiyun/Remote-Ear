@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F0792631BFA39130031E2A0 /* XHRemoteEarClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F0792621BFA39130031E2A0 /* XHRemoteEarClient.mm */; settings = {ASSET_TAGS = (); }; };
+		2F0792661BFA3E290031E2A0 /* XHAudioReciever.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F0792651BFA3E290031E2A0 /* XHAudioReciever.mm */; settings = {ASSET_TAGS = (); }; };
+		2F48E6161BE77D080018FDA4 /* XHAudioSender.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F48E6151BE77D080018FDA4 /* XHAudioSender.mm */; settings = {ASSET_TAGS = (); }; };
+		2F5A902B1BE484CD000E35DB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5A902A1BE484CD000E35DB /* CFNetwork.framework */; };
+		2F5A902D1BE484E3000E35DB /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5A902C1BE484E3000E35DB /* CoreFoundation.framework */; };
+		2F5A902F1BE48513000E35DB /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5A902E1BE48513000E35DB /* CoreAudio.framework */; };
+		2F5A90311BE48524000E35DB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5A90301BE48524000E35DB /* AudioToolbox.framework */; };
+		2F5A90331BE48FC9000E35DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5A90321BE48FC9000E35DB /* UIKit.framework */; };
+		2F5A90351BE4BF07000E35DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5A90341BE4BF07000E35DB /* Foundation.framework */; };
+		2FAFB0331BED88A500EE33EC /* XHRemoteEarViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FAFB0311BED88A500EE33EC /* XHRemoteEarViewController.mm */; settings = {ASSET_TAGS = (); }; };
+		2FAFB0341BED88A500EE33EC /* XHRemoteEarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FAFB0321BED88A500EE33EC /* XHRemoteEarViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		2FC414751BDB23CA00887FB8 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FC414741BDB23CA00887FB8 /* main.mm */; };
+		2FC414781BDB23CA00887FB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC414771BDB23CA00887FB8 /* AppDelegate.m */; };
+		2FC4148E1BDB23CA00887FB8 /* XHRemoteEarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC4148D1BDB23CA00887FB8 /* XHRemoteEarTests.m */; };
+		2FC414991BDB23CA00887FB8 /* XHRemoteEarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC414981BDB23CA00887FB8 /* XHRemoteEarUITests.m */; };
+		2FC414AB1BDB27BB00887FB8 /* XHRemoteEarServer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FC414AA1BDB27BB00887FB8 /* XHRemoteEarServer.mm */; settings = {ASSET_TAGS = (); }; };
+		2FD50E471C1156AD0012824A /* XHRemoteEarClientViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FD50E451C1156AD0012824A /* XHRemoteEarClientViewController.mm */; settings = {ASSET_TAGS = (); }; };
+		2FD50E481C1156AD0012824A /* XHRemoteEarClientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD50E461C1156AD0012824A /* XHRemoteEarClientViewController.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FC4148A1BDB23CA00887FB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FC414681BDB23CA00887FB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FC4146F1BDB23CA00887FB8;
+			remoteInfo = XHRemoteEar;
+		};
+		2FC414951BDB23CA00887FB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FC414681BDB23CA00887FB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FC4146F1BDB23CA00887FB8;
+			remoteInfo = XHRemoteEar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F0792611BFA39130031E2A0 /* XHRemoteEarClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHRemoteEarClient.h; sourceTree = "<group>"; };
+		2F0792621BFA39130031E2A0 /* XHRemoteEarClient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = XHRemoteEarClient.mm; sourceTree = "<group>"; };
+		2F0792641BFA3E290031E2A0 /* XHAudioReciever.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHAudioReciever.h; sourceTree = "<group>"; };
+		2F0792651BFA3E290031E2A0 /* XHAudioReciever.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = XHAudioReciever.mm; sourceTree = "<group>"; };
+		2F48E6141BE77D080018FDA4 /* XHAudioSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHAudioSender.h; sourceTree = "<group>"; };
+		2F48E6151BE77D080018FDA4 /* XHAudioSender.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = XHAudioSender.mm; sourceTree = "<group>"; };
+		2F5A902A1BE484CD000E35DB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2F5A902C1BE484E3000E35DB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		2F5A902E1BE48513000E35DB /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		2F5A90301BE48524000E35DB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2F5A90321BE48FC9000E35DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F5A90341BE4BF07000E35DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2FAFB0301BED88A500EE33EC /* XHRemoteEarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHRemoteEarViewController.h; sourceTree = "<group>"; };
+		2FAFB0311BED88A500EE33EC /* XHRemoteEarViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = XHRemoteEarViewController.mm; sourceTree = "<group>"; };
+		2FAFB0321BED88A500EE33EC /* XHRemoteEarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XHRemoteEarViewController.xib; sourceTree = "<group>"; };
+		2FC414701BDB23CA00887FB8 /* XHRemoteEar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHRemoteEar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC414741BDB23CA00887FB8 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		2FC414761BDB23CA00887FB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FC414771BDB23CA00887FB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FC414891BDB23CA00887FB8 /* XHRemoteEarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHRemoteEarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC4148D1BDB23CA00887FB8 /* XHRemoteEarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHRemoteEarTests.m; sourceTree = "<group>"; };
+		2FC4148F1BDB23CA00887FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC414941BDB23CA00887FB8 /* XHRemoteEarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHRemoteEarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC414981BDB23CA00887FB8 /* XHRemoteEarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHRemoteEarUITests.m; sourceTree = "<group>"; };
+		2FC4149A1BDB23CA00887FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC414A91BDB27A100887FB8 /* XHRemoteEarServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHRemoteEarServer.h; sourceTree = "<group>"; };
+		2FC414AA1BDB27BB00887FB8 /* XHRemoteEarServer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = XHRemoteEarServer.mm; sourceTree = "<group>"; };
+		2FD50E441C1156AD0012824A /* XHRemoteEarClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHRemoteEarClientViewController.h; sourceTree = "<group>"; };
+		2FD50E451C1156AD0012824A /* XHRemoteEarClientViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = XHRemoteEarClientViewController.mm; sourceTree = "<group>"; };
+		2FD50E461C1156AD0012824A /* XHRemoteEarClientViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XHRemoteEarClientViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FC4146D1BDB23CA00887FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5A90351BE4BF07000E35DB /* Foundation.framework in Frameworks */,
+				2F5A90331BE48FC9000E35DB /* UIKit.framework in Frameworks */,
+				2F5A90311BE48524000E35DB /* AudioToolbox.framework in Frameworks */,
+				2F5A902F1BE48513000E35DB /* CoreAudio.framework in Frameworks */,
+				2F5A902D1BE484E3000E35DB /* CoreFoundation.framework in Frameworks */,
+				2F5A902B1BE484CD000E35DB /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC414861BDB23CA00887FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC414911BDB23CA00887FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FC414671BDB23CA00887FB8 = {
+			isa = PBXGroup;
+			children = (
+				2F5A90341BE4BF07000E35DB /* Foundation.framework */,
+				2F5A90321BE48FC9000E35DB /* UIKit.framework */,
+				2F5A90301BE48524000E35DB /* AudioToolbox.framework */,
+				2F5A902E1BE48513000E35DB /* CoreAudio.framework */,
+				2F5A902C1BE484E3000E35DB /* CoreFoundation.framework */,
+				2F5A902A1BE484CD000E35DB /* CFNetwork.framework */,
+				2FC414721BDB23CA00887FB8 /* XHRemoteEar */,
+				2FC4148C1BDB23CA00887FB8 /* XHRemoteEarTests */,
+				2FC414971BDB23CA00887FB8 /* XHRemoteEarUITests */,
+				2FC414711BDB23CA00887FB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FC414711BDB23CA00887FB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FC414701BDB23CA00887FB8 /* XHRemoteEar.app */,
+				2FC414891BDB23CA00887FB8 /* XHRemoteEarTests.xctest */,
+				2FC414941BDB23CA00887FB8 /* XHRemoteEarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FC414721BDB23CA00887FB8 /* XHRemoteEar */ = {
+			isa = PBXGroup;
+			children = (
+				2FC414761BDB23CA00887FB8 /* AppDelegate.h */,
+				2FC414771BDB23CA00887FB8 /* AppDelegate.m */,
+				2FC414A91BDB27A100887FB8 /* XHRemoteEarServer.h */,
+				2FC414AA1BDB27BB00887FB8 /* XHRemoteEarServer.mm */,
+				2F0792611BFA39130031E2A0 /* XHRemoteEarClient.h */,
+				2F0792621BFA39130031E2A0 /* XHRemoteEarClient.mm */,
+				2F48E6141BE77D080018FDA4 /* XHAudioSender.h */,
+				2F48E6151BE77D080018FDA4 /* XHAudioSender.mm */,
+				2F0792641BFA3E290031E2A0 /* XHAudioReciever.h */,
+				2F0792651BFA3E290031E2A0 /* XHAudioReciever.mm */,
+				2FAFB0301BED88A500EE33EC /* XHRemoteEarViewController.h */,
+				2FAFB0311BED88A500EE33EC /* XHRemoteEarViewController.mm */,
+				2FAFB0321BED88A500EE33EC /* XHRemoteEarViewController.xib */,
+				2FD50E441C1156AD0012824A /* XHRemoteEarClientViewController.h */,
+				2FD50E451C1156AD0012824A /* XHRemoteEarClientViewController.mm */,
+				2FD50E461C1156AD0012824A /* XHRemoteEarClientViewController.xib */,
+				2FC414731BDB23CA00887FB8 /* Supporting Files */,
+			);
+			path = XHRemoteEar;
+			sourceTree = "<group>";
+		};
+		2FC414731BDB23CA00887FB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FC414741BDB23CA00887FB8 /* main.mm */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FC4148C1BDB23CA00887FB8 /* XHRemoteEarTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FC4148D1BDB23CA00887FB8 /* XHRemoteEarTests.m */,
+				2FC4148F1BDB23CA00887FB8 /* Info.plist */,
+			);
+			path = XHRemoteEarTests;
+			sourceTree = "<group>";
+		};
+		2FC414971BDB23CA00887FB8 /* XHRemoteEarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FC414981BDB23CA00887FB8 /* XHRemoteEarUITests.m */,
+				2FC4149A1BDB23CA00887FB8 /* Info.plist */,
+			);
+			path = XHRemoteEarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FC4146F1BDB23CA00887FB8 /* XHRemoteEar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC4149D1BDB23CA00887FB8 /* Build configuration list for PBXNativeTarget "XHRemoteEar" */;
+			buildPhases = (
+				2FC4146C1BDB23CA00887FB8 /* Sources */,
+				2FC4146D1BDB23CA00887FB8 /* Frameworks */,
+				2FC4146E1BDB23CA00887FB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHRemoteEar;
+			productName = XHRemoteEar;
+			productReference = 2FC414701BDB23CA00887FB8 /* XHRemoteEar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FC414881BDB23CA00887FB8 /* XHRemoteEarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC414A01BDB23CA00887FB8 /* Build configuration list for PBXNativeTarget "XHRemoteEarTests" */;
+			buildPhases = (
+				2FC414851BDB23CA00887FB8 /* Sources */,
+				2FC414861BDB23CA00887FB8 /* Frameworks */,
+				2FC414871BDB23CA00887FB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FC4148B1BDB23CA00887FB8 /* PBXTargetDependency */,
+			);
+			name = XHRemoteEarTests;
+			productName = XHRemoteEarTests;
+			productReference = 2FC414891BDB23CA00887FB8 /* XHRemoteEarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FC414931BDB23CA00887FB8 /* XHRemoteEarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC414A31BDB23CA00887FB8 /* Build configuration list for PBXNativeTarget "XHRemoteEarUITests" */;
+			buildPhases = (
+				2FC414901BDB23CA00887FB8 /* Sources */,
+				2FC414911BDB23CA00887FB8 /* Frameworks */,
+				2FC414921BDB23CA00887FB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FC414961BDB23CA00887FB8 /* PBXTargetDependency */,
+			);
+			name = XHRemoteEarUITests;
+			productName = XHRemoteEarUITests;
+			productReference = 2FC414941BDB23CA00887FB8 /* XHRemoteEarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FC414681BDB23CA00887FB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = XH;
+				TargetAttributes = {
+					2FC4146F1BDB23CA00887FB8 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 4W3635NTME;
+					};
+					2FC414881BDB23CA00887FB8 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 4W3635NTME;
+						TestTargetID = 2FC4146F1BDB23CA00887FB8;
+					};
+					2FC414931BDB23CA00887FB8 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 4W3635NTME;
+						TestTargetID = 2FC4146F1BDB23CA00887FB8;
+					};
+				};
+			};
+			buildConfigurationList = 2FC4146B1BDB23CA00887FB8 /* Build configuration list for PBXProject "XHRemoteEar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FC414671BDB23CA00887FB8;
+			productRefGroup = 2FC414711BDB23CA00887FB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FC4146F1BDB23CA00887FB8 /* XHRemoteEar */,
+				2FC414881BDB23CA00887FB8 /* XHRemoteEarTests */,
+				2FC414931BDB23CA00887FB8 /* XHRemoteEarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FC4146E1BDB23CA00887FB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD50E481C1156AD0012824A /* XHRemoteEarClientViewController.xib in Resources */,
+				2FAFB0341BED88A500EE33EC /* XHRemoteEarViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC414871BDB23CA00887FB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC414921BDB23CA00887FB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FC4146C1BDB23CA00887FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC414781BDB23CA00887FB8 /* AppDelegate.m in Sources */,
+				2F48E6161BE77D080018FDA4 /* XHAudioSender.mm in Sources */,
+				2FD50E471C1156AD0012824A /* XHRemoteEarClientViewController.mm in Sources */,
+				2FC414751BDB23CA00887FB8 /* main.mm in Sources */,
+				2F0792631BFA39130031E2A0 /* XHRemoteEarClient.mm in Sources */,
+				2FAFB0331BED88A500EE33EC /* XHRemoteEarViewController.mm in Sources */,
+				2F0792661BFA3E290031E2A0 /* XHAudioReciever.mm in Sources */,
+				2FC414AB1BDB27BB00887FB8 /* XHRemoteEarServer.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC414851BDB23CA00887FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC4148E1BDB23CA00887FB8 /* XHRemoteEarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC414901BDB23CA00887FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC414991BDB23CA00887FB8 /* XHRemoteEarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FC4148B1BDB23CA00887FB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FC4146F1BDB23CA00887FB8 /* XHRemoteEar */;
+			targetProxy = 2FC4148A1BDB23CA00887FB8 /* PBXContainerItemProxy */;
+		};
+		2FC414961BDB23CA00887FB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FC4146F1BDB23CA00887FB8 /* XHRemoteEar */;
+			targetProxy = 2FC414951BDB23CA00887FB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FC4149B1BDB23CA00887FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FC4149C1BDB23CA00887FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FC4149E1BDB23CA00887FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XHRemoteEar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XH.XHRemoteEar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FC4149F1BDB23CA00887FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XHRemoteEar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XH.XHRemoteEar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2FC414A11BDB23CA00887FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XHRemoteEarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XH.XHRemoteEarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XHRemoteEar.app/XHRemoteEar";
+			};
+			name = Debug;
+		};
+		2FC414A21BDB23CA00887FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XHRemoteEarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XH.XHRemoteEarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XHRemoteEar.app/XHRemoteEar";
+			};
+			name = Release;
+		};
+		2FC414A41BDB23CA00887FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XHRemoteEarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XH.XHRemoteEarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XHRemoteEar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2FC414A51BDB23CA00887FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XHRemoteEarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XH.XHRemoteEarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XHRemoteEar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC4146B1BDB23CA00887FB8 /* Build configuration list for PBXProject "XHRemoteEar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC4149B1BDB23CA00887FB8 /* Debug */,
+				2FC4149C1BDB23CA00887FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC4149D1BDB23CA00887FB8 /* Build configuration list for PBXNativeTarget "XHRemoteEar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC4149E1BDB23CA00887FB8 /* Debug */,
+				2FC4149F1BDB23CA00887FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC414A01BDB23CA00887FB8 /* Build configuration list for PBXNativeTarget "XHRemoteEarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC414A11BDB23CA00887FB8 /* Debug */,
+				2FC414A21BDB23CA00887FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC414A31BDB23CA00887FB8 /* Build configuration list for PBXNativeTarget "XHRemoteEarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC414A41BDB23CA00887FB8 /* Debug */,
+				2FC414A51BDB23CA00887FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FC414681BDB23CA00887FB8 /* Project object */;
+}
